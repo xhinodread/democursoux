@@ -1,0 +1,150 @@
+:root{
+  --bg-azul-navbar: #2d4466;
+  /* --bg-body-www: # */
+  --s-text-p: #000000;
+  /* --s-text-p: #03ffff; */
+    --s-dark: #c6a700;
+    --s-ligth: #ffff6b;
+    --secondary: #fdd835;
+    --p-text-p: #ffffff;
+    --p-dark: #003d00;
+    --p-ligth: #629749;
+    --primary: #33691e;
+}
+
+body{
+  background: #d4d0aa!important;
+}
+.bg-navbar-esc{
+  height: auto;
+  background: #e37865;
+  max-width: 1119px;
+  <!-- max-width: 1100px; -->
+}
+.shadow-menu{
+  text-shadow: 2px 3px 5px #000;
+}
+.text-menu{
+  color: #F6E5E5;
+  font-size: 1.2rem;
+
+}
+.text-nombre {
+    //font-weight: bold;
+    font-family: "Satisfy", cursive;
+    //margin-bottom: 1rem;
+    font-size: 2.3rem;
+}
+.bg-93{
+  background: #c4c4c4;
+}
+.card-title {
+    font-weight: bold;
+    font-family: "Satisfy", cursive;
+    margin-bottom: 1rem;
+}
+.possion{
+  position: absolute;
+  top: 0.4em;
+  left: 4em;
+}
+.btn-login{
+  background: #9f665f;
+  width: 5em;
+  padding: 3px;: 2em;
+}
+
+.movil{
+  height: 6.9em;
+}
+
+.shadow-cajas{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.bg-secondary-2{
+  background: #8f8e80;
+}
+/*parallax*/
+.parallax {
+    width: 100%;
+    height: 400px;
+    background-image: url(../imgs/paralax.png);
+    background-position: center;
+    /*centra la imagen*/
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+.parallax p {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    /*tamaño de letra*/
+    font-family: "Noto Serif", serif;
+    padding: 10px;
+    /*color: white;
+    /*color de letra en fondo*/
+    text-transform: uppercase;
+    /*trasforma las letras a mayusc*/
+}
+/*fin parallax*/
+
+.bg-contactos{
+  background: #9ad89a;
+}
+
+/*card img*/
+.card-imag{
+  width: 50%;
+  margin: 0 auto;
+
+}
+.card-img {
+    box-shadow: 2px 2px 5px var(--s-dark);
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #03ffff;
+}
+.card-img .textos {
+    /** height: 100%; ***/
+    height: 150px;
+    /* Flebox */
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+.card-img :hover {
+    opacity: 0.5;
+    background-color: var(--p-text-p);
+    color: var(--s-text-p);
+}
+
+.hover-movil{
+  display: flex;
+}
+
+@media (max-width:900px) {
+  .movil{
+    height: auto;
+    // background: red;
+  }
+  .bg-navbar-esc{
+    max-width: 95%;
+  }
+
+  .hover-movil{
+    display: none;
+  }
+}
