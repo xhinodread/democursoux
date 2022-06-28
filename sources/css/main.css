@@ -35,6 +35,12 @@ body{
     //margin-bottom: 1rem;
     font-size: 2.3rem;
 }
+.text-nombre-abajo {
+    font-weight: lighter;
+    font-family: "Satisfy", cursive;
+    //margin-bottom: 1rem;
+    font-size: 2.3rem;
+}
 .bg-93{
   background: #c4c4c4;
 }
@@ -134,8 +140,49 @@ body{
 .hover-movil{
   display: flex;
 }
+.possion_2{
+  position: relative;
+  top: -1em;
+  left: 0em;
+  width: 8em;
+  height: 8em;
+}
+.nombre-escuela{
+  font-size: 1.3em;
+}
+.nombre-curso{
+    margin-left: 1.4em;
+    top: -0.7em;
+    position: relative;
+    font-size: 1.1em;
+}
+.horario-titulo{
+  font-family: Sansita;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 3.5em;
+  text-transform: uppercase;
+}
+.horario{
+  font-family: Sanchez, cursive;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.contacto{
+  font-family: Sanchez, cursive;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+.shadow-logo{
+  box-shadow: 5px 10px 18px #000000!important;
+}
+.piesitos{
+  font-family: Sanchez, cursive;
+  margin-top:-3em;
+  background: #e37865;
+}
 
-@media (max-width:900px) {
+@media (max-width:990px) {
   .movil{
     height: auto;
     // background: red;
@@ -143,8 +190,10 @@ body{
   .bg-navbar-esc{
     max-width: 95%;
   }
-
   .hover-movil{
     display: none;
+  }
+  .piesitos{
+    margin-top:0;
   }
 }
